@@ -49,7 +49,13 @@ function showDate() {
     "Sunday",
   ];
   let hour = date.getHours();
+  if (hour < 10) {
+    hour = `0${hour}`;
+  }
   let minute = date.getMinutes();
+  if (minute < 10) {
+    minute = `0${minute}`;
+  }
   weekday.innerHTML = `${days[date.getDate()]} ${hour} : ${minute} `;
 }
 
