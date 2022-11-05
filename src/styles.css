@@ -1,4 +1,6 @@
 body {
+  font-family: "Space Mono", monospace;
+
   color: gray;
 }
 .btn {
@@ -37,4 +39,40 @@ li {
   font-size: 55px;
   font-weight: 600;
   color: black;
+}
+
+.left-cloudy-description {
+  text-align: right;
+}
+.weekday {
+  font-size: 22px;
+}
+.col-center {
+  text-align: center;
+  border-radius: 4px;
+}
+.col-center:hover {
+  border: 1px solid #dee2e6;
+  background-color: #f8f9fa;
+  cursor: pointer;
+}
+.inline-weather-icon {
+  color: #4f6f8c;
+  font-size: 3em;
+  align-items: center;
+  margin: 5px auto;
+}
+.bold-inline-degree {
+  font-weight: bold;
+}
+.mt-10 {
+  margin-top: 6rem;
+}
+.gray-cloud {
+  color: #4f6f8c;
+  font-size: 3rem;
+  align-items: center;
+}
+.align-items-center {
+  justify-content: center;
 }
